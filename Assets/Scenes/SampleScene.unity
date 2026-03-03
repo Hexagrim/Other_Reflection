@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 139396996}
   - component: {fileID: 139396997}
   - component: {fileID: 139396998}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: LevelEnd
   m_TagString: LevelEnd
   m_Icon: {fileID: 0}
@@ -568,7 +568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 200969935}
   - component: {fileID: 200969936}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -892,7 +892,7 @@ GameObject:
   m_Component:
   - component: {fileID: 385586869}
   - component: {fileID: 385586870}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1030,7 +1030,7 @@ GameObject:
   - component: {fileID: 434621655}
   - component: {fileID: 434621654}
   - component: {fileID: 434621656}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: LevelEndWhite
   m_TagString: LevelEnd
   m_Icon: {fileID: 0}
@@ -1132,7 +1132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 459516740}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: circleglowting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13931,7 +13931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1290924617}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: circleglowting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14028,7 +14028,7 @@ Transform:
   m_GameObject: {fileID: 1377901496}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.97, y: -12.12, z: 0}
+  m_LocalPosition: {x: 9.7, y: 0.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -14543,7 +14543,7 @@ GameObject:
   - component: {fileID: 1563296976}
   m_Layer: 0
   m_Name: PlayerWhite
-  m_TagString: Untagged
+  m_TagString: PlayerWhite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14595,7 +14595,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5768770895796812218, guid: 78e71af0bc700f0418d4cd5038479ce9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -25444,7 +25444,7 @@ Transform:
   m_GameObject: {fileID: 1828604549}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.76, y: -12.01, z: 0}
+  m_LocalPosition: {x: -9.55, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -26190,7 +26190,7 @@ GameObject:
   - component: {fileID: 2042021949}
   - component: {fileID: 2042021951}
   - component: {fileID: 2042021950}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: PassiveParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31124,7 +31124,7 @@ GameObject:
   - component: {fileID: 2115431649}
   m_Layer: 0
   m_Name: PlayerBlack
-  m_TagString: Untagged
+  m_TagString: PlayerBlack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31295,7 +31295,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_MaskInteraction: 0
   m_Sprite: {fileID: -5768770895796812218, guid: 78e71af0bc700f0418d4cd5038479ce9, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -36203,7 +36203,7 @@ GameObject:
   - component: {fileID: 3789021019401486158}
   - component: {fileID: 1023852730086028280}
   - component: {fileID: 7326451595483595095}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: PassiveParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

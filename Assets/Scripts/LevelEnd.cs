@@ -9,11 +9,11 @@ public class LevelEnd : MonoBehaviour
     public string NextLevel;
     public static bool whitePass, blackPass;
     public GameObject Particle,Particle1;
-    static bool done = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        whitePass = false;
+        blackPass = false;
     }
 
     // Update is called once per frame
@@ -25,11 +25,7 @@ public class LevelEnd : MonoBehaviour
         {
             StartCoroutine(Escape());   
         }
-        if(!done && whitePass && blackPass)
-        {
-            done = true;
-            StartCoroutine(EndLevel());
-        }
+
 
     }
 
@@ -38,11 +34,19 @@ public class LevelEnd : MonoBehaviour
         if (other.gameObject.CompareTag("LevelEnd") && Collectables.canPass && gameObject.CompareTag("PlayerWhite"))
         {
             GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+            if (blackPass)
+            {
+                StartCoroutine(EndLevel());
+            }
             whitePass = true;
         }
         if (other.gameObject.CompareTag("LevelEnd") && Collectables.canPass && gameObject.CompareTag("PlayerBlack"))
         {
             GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+            if (whitePass)
+            {
+                StartCoroutine(EndLevel());
+            }
             blackPass = true;
         }
     }

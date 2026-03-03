@@ -50,10 +50,12 @@ public class PlayerScriptWhite : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             rb.linearVelocityX = speed * mult;
+            transform.localScale = new Vector2(1 * mult, 1);
         }
         else if (Input.GetKey(KeyCode.A))
         {
             rb.linearVelocityX = -speed * mult;
+            transform.localScale = new Vector2(-1 * mult, 1);
 
         }
     }

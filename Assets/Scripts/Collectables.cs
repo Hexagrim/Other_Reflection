@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Collectables : MonoBehaviour
 {
-    public float numOfCollectables;
-    public bool canPass;
-    private float collected;
+    public static float numOfCollectables;
+    public static bool canPass;
+    private static float collected;
     public GameObject Particle;
 
 

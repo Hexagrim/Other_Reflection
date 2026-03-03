@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - collectable
+  - Enemy
+  - PlayerBlack
+  - PlayerWhite
   layers:
   - Default
   - TransparentFX

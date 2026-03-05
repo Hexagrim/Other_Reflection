@@ -15879,7 +15879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelEnd
   FadeAnim: {fileID: 725957053}
-  NextLevel: Level1
+  NextLevel: Level2
   Particle: {fileID: 8078387552638181057}
   Particle1: {fileID: 2042021948}
 --- !u!114 &1563296982
@@ -33152,7 +33152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelEnd
   FadeAnim: {fileID: 725957053}
-  NextLevel: Level1
+  NextLevel: Level2
   Particle: {fileID: 8078387552638181057}
   Particle1: {fileID: 2042021948}
 --- !u!114 &2115431657

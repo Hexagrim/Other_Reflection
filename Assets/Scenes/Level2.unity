@@ -1778,10 +1778,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.44111112
     y: 0
-    width: 1
-    height: 1
+    width: 0.7111111
+    height: 0.711316
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -16698,7 +16698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelEnd
   FadeAnim: {fileID: 725957053}
-  NextLevel: Level3
+  NextLevel: Level2.5
   Particle: {fileID: 8078387552638181057}
   Particle1: {fileID: 2042021948}
 --- !u!114 &1563296982
@@ -36263,7 +36263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelEnd
   FadeAnim: {fileID: 725957053}
-  NextLevel: Level3
+  NextLevel: Level2.5
   Particle: {fileID: 8078387552638181057}
   Particle1: {fileID: 2042021948}
 --- !u!114 &2115431657

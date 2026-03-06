@@ -32,6 +32,7 @@ public class Collectables : MonoBehaviour
         if (other.gameObject.CompareTag("collectable") && other != null)
         {
             collected++;
+            FindFirstObjectByType<Music>().PlaySFX(FindFirstObjectByType<Music>().Collect);
             Instantiate(Particle, other.gameObject.transform.position, Quaternion.identity);
             Destroy(other.gameObject);
 

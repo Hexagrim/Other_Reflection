@@ -901,10 +901,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.20677084
     y: 0
-    width: 0.9998794
-    height: 1
+    width: 0.33333334
+    height: 0.3333333
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -1529,7 +1529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4135499293315721393, guid: 1ca5cc05e5612044c96d8b3c60b74b2b, type: 3}
+  m_Sprite: {fileID: 5710170974963936692, guid: 1ca5cc05e5612044c96d8b3c60b74b2b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

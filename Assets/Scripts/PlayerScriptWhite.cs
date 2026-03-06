@@ -29,6 +29,7 @@ public class PlayerScriptWhite : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.linearVelocityY = jumpSpeed;
+            FindFirstObjectByType<Music>().PlaySFX(FindFirstObjectByType<Music>().Jump);
         }
 
         if(rb.linearVelocityY > 0f)

@@ -74,7 +74,7 @@ ScriptedImporter:
   previousAsepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 0
+    layerImportMode: 1
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -89,7 +89,7 @@ ScriptedImporter:
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
-    layerImportMode: 0
+    layerImportMode: 1
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
@@ -102,7 +102,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 639082455642410949
+  platformSettingsDirtyTick: 639083887220404211
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -127,30 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Layer 1
+  - name: title
     originalName: 
-    pivot: {x: 0.49999997, y: -6.6000004}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 32
-      width: 88
-      height: 20
-    spriteID: e24101738aa05164cb6fd3ebcc4d899b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 32}
-  - name: Layer 2
-    originalName: 
-    pivot: {x: 0.5, y: -5.55}
+    pivot: {x: 0.5, y: -2.707317}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -159,8 +138,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 160
-      height: 20
-    spriteID: 71af893d0ab4432408dfc590d7db5ae9
+      height: 41
+    spriteID: 6aa7bc0ca077abe49a19660e96752876
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -174,50 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 4287466680
+      value0: 2435225568
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Layer 1
-    layerFlags: 3
+    name: title
+    layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Layer 1
-      frameIndex: 0
-      additiveSortOrder: 0
-      cellRect:
-        x: 116
-        y: 132
-        width: 88
-        height: 20
-      spriteId: e24101738aa05164cb6fd3ebcc4d899b
-    linkedCells: []
-    tileCells: []
-    tileSetIndex: 0
-    parentIndex: -1
-  - layerIndex: 1
-    uuid:
-      value0: 4287466677
-      value1: 0
-      value2: 0
-      value3: 0
-    guid: 0
-    name: Layer 2
-    layerFlags: 3
-    layerType: 0
-    blendMode: 0
-    cells:
-    - name: Layer 2
+    - name: title
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 80
         y: 111
         width: 160
-        height: 20
-      spriteId: 71af893d0ab4432408dfc590d7db5ae9
+        height: 41
+      spriteId: 6aa7bc0ca077abe49a19660e96752876
     linkedCells: []
     tileCells: []
     tileSetIndex: 0

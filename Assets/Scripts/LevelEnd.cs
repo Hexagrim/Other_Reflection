@@ -54,6 +54,7 @@ public class LevelEnd : MonoBehaviour
     IEnumerator EndLevel()
     {
         FadeAnim.SetTrigger("fadeOut");
+        FindFirstObjectByType<Music>().PlaySFX(FindFirstObjectByType<Music>().LevelEnd);
         GetComponent<PlayerScriptWhite>().enabled = false;
         GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
         yield return new WaitForSeconds(1f);

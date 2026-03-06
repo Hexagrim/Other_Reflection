@@ -38,6 +38,7 @@ public class DeathManager : MonoBehaviour
     IEnumerator StartKilling()
     {
         died = true;
+        FindFirstObjectByType<Music>().PlaySFX(FindFirstObjectByType<Music>().Die);
         FadeAnim.SetTrigger("fadeOut");
         if (gameObject.CompareTag("PlayerBlack") )Instantiate(Particle, transform.position, Quaternion.identity);
         else Instantiate(Particle1, transform.position, Quaternion.identity);

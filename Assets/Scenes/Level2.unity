@@ -1778,10 +1778,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.44111112
+    x: 0.20677084
     y: 0
-    width: 0.7111111
-    height: 0.711316
+    width: 0.33333334
+    height: 0.3333333
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -15923,7 +15923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: d8025efb99e44a54fafbb537c8b36750, type: 3}
       propertyPath: m_Color.a
-      value: 0.58431375
+      value: 0.78431374
       objectReference: {fileID: 0}
     - target: {fileID: 3626916397498700004, guid: d8025efb99e44a54fafbb537c8b36750, type: 3}
       propertyPath: m_Color.b

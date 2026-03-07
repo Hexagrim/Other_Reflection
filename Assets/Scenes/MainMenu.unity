@@ -903,7 +903,7 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0.9995062
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -21263,8 +21263,8 @@ MonoBehaviour:
   Die: {fileID: 8300000, guid: 1be5bf512107c404985b22ee424924c8, type: 3}
   LevelEnd: {fileID: 8300000, guid: d9043e993ff86e249b0e161de3a48446, type: 3}
   Collect: {fileID: 8300000, guid: 8e94277a23282b7478aaf306f1c53263, type: 3}
-  Jump: {fileID: 0}
-  Rickroll: {fileID: 0}
+  Jump: {fileID: 8300000, guid: e29a755801582194d9ce0f1e709ba1ca, type: 3}
+  Rickroll: {fileID: 8300000, guid: 93d32c70ca4584345962042a5d261180, type: 3}
 --- !u!82 &1231824358
 AudioSource:
   m_ObjectHideFlags: 0
@@ -21371,7 +21371,7 @@ Transform:
   m_GameObject: {fileID: 1231824356}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.20005, y: 2.87235, z: 0}
+  m_LocalPosition: {x: -7, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21658,7 +21658,7 @@ RectTransform:
   m_GameObject: {fileID: 1385022974}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1546541, y: 1.2131532, z: 1.1546541}
+  m_LocalScale: {x: 1.154656, y: 1.2131532, z: 1.1546541}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1862473770}
@@ -22114,7 +22114,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.7419975, y: 1.5050781}
+  m_AnchoredPosition: {x: 2.3, y: 1.5050781}
   m_SizeDelta: {x: 64, y: 32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1646772577
